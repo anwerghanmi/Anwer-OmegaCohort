@@ -10,9 +10,9 @@ def play():
     return render_template("play.html", num=3, color="blue")
 @app.route('/play/<int:num>')
 def level_two(num):
-    return render_template("play.html", num=num)
+    return render_template("play.html", num=num, color="blue")
 @app.route('/play/<int:num>/<string:color>')
-def level_three(num):
+def level_three(num, color):
     return render_template("play.html", num=num, color=color)
 
 
