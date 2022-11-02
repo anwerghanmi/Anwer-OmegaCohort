@@ -1,0 +1,25 @@
+select * from dojos;
+insert into dojos (name, created_at) values("Anwer", now());
+insert into dojos (name, created_at) values("Anwer", now());
+insert into dojos (name, created_at) values("Anwer", now());
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM dojos ;
+insert into dojos (name, created_at) values("Anwer", now());
+insert into dojos (name, created_at) values("Anwer", now());
+insert into dojos (name, created_at) values("Anwer", now());
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("anwer","ghanmi",27,4),("nassim","chaaben",27,4),("ayoub","kallel",30,4);
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("heni","h",30,5),("iheb","m",25,5),("mouin","m",31,5);
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("athar","b",30,6),("dhouha","d",28,6),("salma","s",26,6);
+SELECT * FROM dojos
+LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id
+WHERE dojos.id = 4;
+SELECT * FROM dojos
+LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id
+WHERE dojos.id = (SELECT id FROM dojos ORDER BY id DESC LIMIT 1);
+
+SELECT * FROM dojos
+WHERE dojos.id = (SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);
+

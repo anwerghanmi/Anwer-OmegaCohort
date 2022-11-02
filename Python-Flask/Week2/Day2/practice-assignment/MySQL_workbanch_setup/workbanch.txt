@@ -1,0 +1,6 @@
+SELECT * FROM names.names;
+INSERT INTO names (name) VALUES ("Anwer");
+INSERT INTO names (name) VALUES ("nassim");
+INSERT INTO names (name) VALUES ("bourguiba");
+update names 
+set name = ("beji") where id =2
