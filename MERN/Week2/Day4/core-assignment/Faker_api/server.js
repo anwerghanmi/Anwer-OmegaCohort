@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const PORT =8000;
 
-
+// 
 app.get('/api/user/new',(request,responce)=>{
     responce.send(newuser)
 });
