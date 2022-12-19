@@ -1,0 +1,15 @@
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\bin\Debug\net6.0\hello.Netcore.exe
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\bin\Debug\net6.0\hello.Netcore.deps.json
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\bin\Debug\net6.0\hello.Netcore.runtimeconfig.json
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\bin\Debug\net6.0\hello.Netcore.dll
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\bin\Debug\net6.0\hello.Netcore.pdb
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.csproj.AssemblyReference.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.AssemblyInfoInputs.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.AssemblyInfo.cs
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.csproj.CoreCompileInputs.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.dll
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\refint\hello.Netcore.dll
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.pdb
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\hello.Netcore.genruntimeconfig.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\hello.Netcore\obj\Debug\net6.0\ref\hello.Netcore.dll
