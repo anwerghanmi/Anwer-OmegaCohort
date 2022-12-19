@@ -1,0 +1,15 @@
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.csproj.AssemblyReference.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.AssemblyInfoInputs.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.AssemblyInfo.cs
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.csproj.CoreCompileInputs.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\bin\Debug\net6.0\fundamental1.exe
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\bin\Debug\net6.0\fundamental1.deps.json
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\bin\Debug\net6.0\fundamental1.runtimeconfig.json
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\bin\Debug\net6.0\fundamental1.dll
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\bin\Debug\net6.0\fundamental1.pdb
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.dll
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\refint\fundamental1.dll
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.pdb
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\fundamental1.genruntimeconfig.cache
+C:\Users\DHIA\Desktop\Anwer-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\fundamental1\obj\Debug\net6.0\ref\fundamental1.dll
