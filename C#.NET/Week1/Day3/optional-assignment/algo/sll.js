@@ -1,69 +1,115 @@
-// Singly Linekd List
-
-class Node {
+class Node{
     constructor (value){
-        this.value  = value
-        this.next = null
+        this.value =value
+        this.next =null
     }
 }
-
-class SSL {
-    constructor (){
-        this.head = null;
+class SSL{
+    constructor(){
+        this.head =null
     }
-    isEmpty (){
-        // Your cosde will be here
-        if (this.head === null){
-            return true;
+    isEmpty(){
+        if(this.head===null){
+           return true
         }else {
-            return false;
+            return false
         }
+
     }
-    addToBack (value){
+    addToBack(value){
         if(this.isEmpty()){
-            this.head = new Node(value);
+            this.head=new Node(value);
         }
-        else {
-            let runner  = this.head;
-            while(runner.next !== null){
-                runner = runner.next;
-            }
-            runner.next = new Node(value);
+        else{
+            let  y= this.head
+            console.log(y);
+            while (y.next !== null){
+                    y = y.next;
+             }
+             y.next = new Node(value);
         }
         return this
     }
-    read (){
+    read(){
+        let get = this.head
         if(this.isEmpty()){
             return false
-        }
-        else {
-            let runner = this.read
-            while (runner !== null){
-                console.log(runner.value);
-                runner = runner.next
+        }else{
+            while(get!==null){
+             console.log(get.value)
+             get=get.next
             }
+            console.log(get)
         }
     }
     find(value){
-        return true//false
+        if(this.isEmpty()){
+            return false
+        }else{
+            let get = this.head
+            while(get){
+                if(get.value==value){
+                    return true
+                }else{
+                    get=get.next
+                }
+            }
+            return false 
+        }
     }
-    removeAtFront(){
+    removeAtfront(){
+        if (this.isEmpty()){
+            return false}
+         
+         else{
 
+            this.head=this.head.next
+             return this
+        }
     }
+    
+    delete(value){
+        let runner = this.head
+            while(runner){
+                if(runner.value==value){
+                    delete runner.value
+                    return this
+                }
+                runner=runner.next
+            }
+        }
+    }
+    // ***bonus
+    // size() {
+    //     let count = 0; 
+    //     let node = this.head;
+    //     while (node) {
+    //         count++;
+    //         node = node.next
+    //     }
+    //     return count;
+    // }
 
-}
+// var firstNode= new Node(5);
+// var secondNode = new Node(13);
+// firstNode.next= secondNode;
+// var firstSSL= new SSL();
+// firstSSL.head= firstNode
+// console.log(firstNode);
 
-
-var firstNode = new Node(5);
-var secndNode = new Node(13);
-firstNode.next = secndNode;
-var firstSSL = new SSL();
-firstSSL.head = firstNode
-console.log(firstSSL);
-var mySLL  = new SSL();
-console.log(mySLL);
-mySLL.addToBack(661);
-// console.log(mySLL);
-// mySLL.addToBack(999);
-// console.log(mySLL);
-mySLL.read()
+var New = new SSL();
+// console.log(New);
+// New.addToBack(55555);
+// console.log(New);
+New.addToBack(11111)
+New.addToBack(55555)
+New.addToBack(55775)
+New.addToBack(321);
+// New.read();
+// New.removeAtfront()
+// New.read();
+// New.size();
+New.read ();
+console.log(New.removeAtfront());
+New.read ();
+console.log(New.delet);
