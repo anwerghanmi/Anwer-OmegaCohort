@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+<div class="mb-3 card bg-warning">
+    <form action="create" method="post">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <span asp-validation-for ="Name" class="text-danger"></span>
+            <input asp-for="Name">
+        </div>
+          <div class="div">
+           <label asp-for="location">Dojo location:</label>
+            <select id="location" name="location">
+                <option value="tunis">tunis</option>
+                <option value="sousse">sousse</option>
+                <option value="us">us</option>
+                <option value="japan">japan</option>
+            </select>
+        </div>
+        <div class="div">
+           <label asp-for="language">favorite language:</label>
+            <select id="language" name="language">
+                <option value="python">python</option>
+                <option value="java">java</option>
+                <option value="c#">c#</option>
+          
+            </select>
+        </div>
+        <div class="div">
+            <label asp-for="comment"></label>
+            <span asp-validation-for ="comment" class="text-danger"></span>
+            <input asp-for="comment">
+        </div>
+        <input type="submit" class="btn btn-info">
+    </form>
+</div>
