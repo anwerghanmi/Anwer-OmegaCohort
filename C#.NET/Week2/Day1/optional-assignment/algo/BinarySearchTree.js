@@ -48,6 +48,28 @@ max(){
     }
     return maxVal
 }
+find(value){
+    if(this.isEmpty()!==null){
+    let runner=this.root;
+   while (runner)
+   {    if(runner.value==value){
+        return true;
+    }
+    else { 
+        if (runner.value>value)
+        {
+        runner=runner.left;
+    }
+    else{
+        runner=runner.right
+    }
+}
+}
+
+    }
+        return false
+
+}
 }
 var node1 = new Node(8);
 var node2 = new Node(45);
@@ -56,5 +78,6 @@ node1.right = node2;
 node1.left =  node3;
 var myBST = new BST();
 myBST.root = node1;
-console.log(myBST.min()); 
+// console.log(myBST.min()); 
 // console.log(myBST.isEmpty());
+console.log(myBST.find(0));
